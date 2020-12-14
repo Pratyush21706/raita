@@ -1,0 +1,174 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  cursor: url(normal.cur), default;
+}
+
+.cross{
+/*    transition: .1s;*/
+    margin-top: -5px;
+    position: fixed;
+    background: rgba(0255,0255,0255,0.5);
+/*    font-family: sans-serif*/
+/*    padding-right: 100% */
+        width:100%;
+    margin-left: 10px;
+/*    transform: rotate(-50deg);*/
+
+}
+.cross:active{
+    transform: rotate(-180deg);
+    position: fixed;
+}
+#lgo{
+    font-family: sans-serif;
+    font-size: 30px;
+/*    width:100%;*/
+    margin-left: 10px
+}
+.p_image{
+    width : 60%;
+max-height: 300px;
+    margin-top: 10%;
+    max-width: 250px;
+}
+
+h1{
+    text-align: left;;
+    word-wrap: break-word;
+    margin-left: 30px;
+    font-family: sans-serif;
+    color : #1e1d1d;
+/*    position:fixed*/
+}
+
+.quantity{
+    background: white;
+ border: 1px solid gray   ; 
+    padding: 4px;
+padding-left: 35px;
+    padding-right: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+outline:0px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.quantity:focus{
+    border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+}
+
+.price{
+    font-family: sans-serif;
+/*    font-weight: lighter;*/
+    display:inline-block;
+    margin-left: 45%;
+    font-size: 30px;
+    margin-top: -30px;
+    color:orange;
+    
+}
+.price::before{
+    content: "₹"
+}
+
+.content{
+    width:90%;
+/*    height : 100px;*/
+    overflow:scroll;
+        margin-left: 30px;
+margin-top: -30px;
+    font-family: sans-serif;
+    color:gray;
+}
+.content::-webkit-scrollbar{
+    display:none;
+}
+h3{
+        margin-left: 30px;;
+font-size: 21px;
+    font-family: sans-serif;
+    color:#2b2929;
+        margin-top: -0px;
+
+}
+
+.foot{
+    background: white;
+    position: fixed;
+    bottom : 0;
+    width:100%;
+    padding-bottom: 20px;
+    padding-top: 10px
+}
+
+#cart{
+    width:55px;
+    height : 55px;
+    font-size: 26px;
+    border-radius: 65px;
+    border : 1px solid gray;
+    outline:none;
+    background: white;
+        margin-left: 5%;
+/*    ba:red;*/
+}
+
+.fake{
+        margin-left: 30px;
+    border:1px solid black;
+    width : 80%;
+border-radius: 8px;
+/*        background: #FDBC40;*/
+
+}
+
+#pi{
+/*    color : red;*/
+    border:0px;
+    height : 35px;
+            padding-left: 3px;
+outline: 0px;
+    font-size: 19px;
+    width : 85%;
+    border-radius: 8px;
+outline: 0px;
+}
+#search{
+    width :12%;
+        height : 38px;
+    background: #FDBC40;
+    font-size: 18px;
+    border: 0px;
+    border-left: 1px solid black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+outline: 0px;
+
+}
+.bdy{
+/*    max-height: 500px;*/
+    margin-top: 100px;
+    overflow:scroll
+}
+.bdy::-webkit-scrollbar{
+    display:none;
+}
+
+body::-webkit-scrollbar{
+    display:none;
+}
+#buy{
+    width:75%;
+    height : 55px;
+    font-size: 27px;
+    border-radius: 35px;
+    border : 0px solid gray;
+    outline:none;
+    margin-left: 3%;
+    font-weight: 550;
+    color :  rgba(0,0,0,0.9);
+    background: #FDBC40;
+}
